@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableDiscoveryClient
 @ComponentScan(basePackages= {"com.learn.cuController","com.learn.cuService",
-		"com.learn.cuRepo","com.learn.cuEntity"})
+		"com.learn.cuRepo","com.learn.cuEntity","com.learn.cuModel"})
 public class ContactUsApplication {
 
 	public static void main(String[] args) {
